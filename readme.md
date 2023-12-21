@@ -3,8 +3,8 @@
 
 ## Description
 
-1 This is a simulation of the Very Simple File System described in Chapter 40 of Operating Systems: Three Easy Pieces by Remzi & Andrea Arpaci-Dusseau
-When this program is run it creates 24 blocks,marks the first one to store the system itself, then sets up bitmaps in the second and third blocks.
+ This is a simulation of the Very Simple File System described in Chapter 40 of Operating Systems: Three Easy Pieces by Remzi & Andrea Arpaci-Dusseau.
+When this program is run it creates 24 blocks, marks the first one to store the system itself, then sets up bitmaps in the second and third blocks.
 Pressing S once sets up an inode block that stores metadata and points to the blocks containing a file's actual data. A sample file is then saved to a data block and its metadata is saved and printed on the screen.
 Pressing S again looks at the inode to see where that file's data is stored then reads that data and prints it on screen alongside the file's name.
 Pressing S a third time will mark the data and inode spaces as empty so they are available to be written over by another file.
